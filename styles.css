@@ -1,5 +1,7 @@
 
 
+
+
 * {
     flex-wrap: wrap;
     scroll-padding-top: 170px;
@@ -179,20 +181,21 @@ li {
     }
 }
 
-@media only screen and (max-width: 450px) {
-    #about h1 {
-        padding-top: 10px;
-    }
-}
-
 @media only screen and (max-width:290px){
     * {
-        scroll-padding-top: 250px;
+        scroll-padding-top: 180px;
     
     }
     body {
         position: relative;
-        top: 230px;
+        top: 170px;
 
+    }
+    #title h1 {
+        font-size: 26px;
+    }
+
+    #nav h3 {
+        font-size: 14px;
     }
 }
