@@ -2,7 +2,7 @@
 
 * {
     flex-wrap: wrap;
-    scroll-padding-top: 190px;
+    scroll-padding-top: 170px;
     align-items: center;
     font-family: Georgia, sans-serif;
 }
@@ -65,8 +65,9 @@ a{
 }
 
 #about h1 {
-    padding-top: 20px;
+    padding-top: 10px;
 }
+
 
 #about {
     background-color: #154279;
@@ -175,5 +176,11 @@ li {
     }
     #all_fleet img {
         display: none;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    #about h1 {
+        padding-top: 10px;
     }
 }
