@@ -172,13 +172,4 @@ li {
     #all_fleet img {
         display: none;
     }
-    #about {
-        background-color:red;
-    }
-}
-
-@media only screen and (max-width: 415px) {
-    #about {
-        background-color: red;
-    }
 }
