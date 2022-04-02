@@ -64,6 +64,9 @@ a{
     color: #ffffff;
 }
 
+#about h1 {
+    padding-top: 20px;
+}
 
 #about {
     background-color: #154279;
