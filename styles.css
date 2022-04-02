@@ -1,0 +1,185 @@
+
+* {
+    flex-wrap: wrap;
+    scroll-padding-top: 150px;
+    align-items: center;
+    font-family: Georgia, sans-serif;
+}
+
+body {
+    position: relative;
+    top: 140px;
+    color: #ffffff;
+}
+
+p {
+    font-size: 16px;
+}
+
+h1 {
+    font-weight: bolder;
+}
+
+#title {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    padding-left: 20px;
+}
+
+#header {
+    min-height: 130px;
+    position: fixed;
+    top: 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    background-color: #061724;
+    color: #ffffff;
+    border-bottom: 1px solid white;
+    z-index: 20;
+}
+
+#nav {
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    padding-right: 10px;
+    padding-right: 20px;
+    height: 100%;
+}
+
+#nav h3 {
+    padding-left: 20px;
+    padding-right: 10px;
+    font-size: 18px;
+    text-decoration: underline;
+    display: flex;
+}
+
+a{
+    color: #ffffff;
+}
+
+
+#about {
+    background-color: #154279;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#about_img {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+#logo {
+    margin-top: 15px;
+    width: 20%;
+    height: auto;
+    padding-right: 5px;
+}
+
+#owners {
+    margin-top: 15px;
+    width: 20%;
+    height: auto;
+    padding-left: 5px;
+}
+
+#about_text {
+    width: 80%;
+    text-align: center;
+}
+
+#services {
+    background-color:#154c79;
+    text-align: center;
+}
+
+#services h1 {
+    padding-top: 15px;
+}
+
+ul {
+    display: inline-block;
+    text-align: left;
+    list-style-type: square;
+    list-style-position: inside;
+    margin-bottom: 20px;
+}
+
+li {
+    padding-bottom: 10px;
+    font-size: 16px;
+    
+}
+
+#fleet{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+#fleet img {
+    width: 250px;
+    height: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-bottom: 15px;
+}
+
+#fleet_all {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+#all_fleet img {
+    max-width: 810px;
+    height: auto;
+    padding-bottom: 15px;
+}
+
+#contact {
+    background-color: #155679;
+    text-align: center;
+}
+
+#contact h1 {
+    padding-top: 15px;
+}
+
+#facebook{
+    padding-bottom: 25px;
+}
+
+@media only screen and (max-width: 850px) {
+    #logo {
+        display: none;
+    }
+    #owners {
+        display: none;
+    }
+    #all_fleet img {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    li {
+        padding-bottom: 10px;
+        font-size: 20px;
+    }
+    #contact p {
+        font-size: 20px;
+    }
+}
