@@ -1,0 +1,246 @@
+* {
+    flex-wrap: wrap;
+    scroll-padding-top: 130px;
+    align-items: center;
+    font-family: Georgia, sans-serif;
+}
+
+body {
+    position: relative;
+    top: 123px;
+    color: #ffffff;
+    max-width: 100%;
+}
+
+span {
+    font-style: italic;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+h1 {
+    font-weight: bolder;
+}
+
+#header {
+    min-height: 130px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #061724;
+    color: #ffffff;
+    border-bottom: 1px solid white;
+    z-index: 20;
+}
+
+#title {
+    margin-left: 20px;
+}
+
+#nav {
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+#nav h3 {
+    font-size: 16px;
+    text-decoration: underline;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+a{
+    color: #ffffff;
+}
+
+#about h1 {
+    padding-top: 10px;
+}
+
+
+#about {
+    background-color: #155679;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#about_text p {
+    text-align: justify;
+    padding-bottom: 15px;
+}
+
+#about_img {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+#logo {
+    margin-top: 15px;
+    width: 20%;
+    height: auto;
+    padding-right: 5px;
+}
+
+#owners {
+    margin-top: 15px;
+    width: 20%;
+    height: auto;
+    padding-left: 5px;
+}
+
+#about_text {
+    width: 80%;
+    text-align: center;
+}
+
+#services {
+    background-color:#154c79;
+    text-align: center;
+}
+
+#services h1 {
+    padding-top: 15px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+li {
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 18px;  
+}
+
+#fleet{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+#fleet img {
+    width: 250px;
+    height: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-bottom: 15px;
+}
+
+#fleet_all {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+#all_fleet img {
+    max-width: 810px;
+    height: auto;
+    padding-bottom: 15px;
+}
+
+#equip {
+    background-color: #154279;
+    color: #ffffff;
+    text-align: center;
+}
+
+#equip h1 {
+    padding-top: 15px;
+}
+
+#equip p {
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+#safety {
+    background-color: #154c79;
+    color: #ffffff;
+    text-align: center;
+    
+}
+
+#safety h1 {
+    padding-top: 15px;
+}
+
+#safety p {
+    margin-right: auto;
+    margin-left: auto;
+    padding-bottom: 15px;
+    width: 80%;
+    text-align: justify;
+}
+
+#contact {
+    background-color: #155679;
+    text-align: center;
+}
+
+#contact h1 {
+    padding-top: 15px;
+}
+
+#facebook{
+    padding-bottom: 25px;
+}
+
+@media only screen and (max-width: 850px) {
+    #title {
+        display: none;
+    }
+    #logo {
+        width: 80%;
+    }
+    #owners {
+        display: none;
+    }
+    #all_fleet img {
+        display: none;
+    }
+
+}
+
+@media only screen and (max-width:290px){
+    * {
+        scroll-padding-top: 140px;
+    
+    }
+    body {
+        position: relative;
+        top: 130px;
+
+    }
+    #title h1 {
+        font-size: 26px;
+    }
+
+    #nav h3 {
+        font-size: 14px;
+    }
+
+}
